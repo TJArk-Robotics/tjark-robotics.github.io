@@ -23,7 +23,7 @@ description: TJArk home page!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About us: "aboutus"
   Rules:
     - Nao Rules: "file/Rules/RoboCup_SPL_Rules.pdf"
 
