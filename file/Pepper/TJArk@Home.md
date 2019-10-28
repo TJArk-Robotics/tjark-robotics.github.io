@@ -76,5 +76,12 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 ## **Media**
 
 三张照片（合照，获奖证书，Pepper）
-三段视频
 
+<p align="center">对话</p>
+<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126108730&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
+
+<p align="center">比赛任务</p>
+<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126108930&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
+
+<p align="center">界面展示</p>
+<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126109122&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
