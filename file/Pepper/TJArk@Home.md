@@ -48,7 +48,17 @@ In 2019, the first year for our team to participate in Pepper games, we won the 
 
 ## **Team members**
 
-Deng Xiuqi(Graduate student, Department of Control Science and Engineering) He Zongtao (Leader, Graduate student, Department of Control Science and Engineering) Xu Weihan ( Graduate student, Department of Control Science and Engineering) Zhou Xun ( Graduate student, Department of Control Science and Engineering) Liu Zhihao ( Graduate student, Department of Control Science and Engineering) Wang Liuyi ( Senior student, Automation) Wang Naijia(Senior student, Automation) Du Jiayuan(Senior student, Automation) Lu Liwen(Senior student, Automation)
+| Name        | Introduction                                                            |
+| ----        | ----                                                                    |
+| Deng Xiuqi  | Graduate student, Department of Control Science and Engineering         |
+| He Zongtao  | Leader, Graduate student, Department of Control Science and Engineering |
+| Xu Weihan   | Graduate student, Department of Control Science and Engineering         |
+| Zhou Xun    | Graduate student, Department of Control Science and Engineering         |
+| Liu Zhihao  | Graduate student, Department of Control Science and Engineering         |
+| Wang Liuyi  | Senior student, Automation                                              |
+| Wang Naijia | Senior student, Automation                                              |
+| Du Jiayuan  | Senior student, Automation                                              | 
+| Lu Liwen    | Senior student, Automation                                              |
 
 ## **Publications**
 
