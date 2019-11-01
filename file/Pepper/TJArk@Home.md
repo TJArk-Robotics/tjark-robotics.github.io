@@ -52,7 +52,7 @@ As a domestic service robot, smooth GUI interaction is neccesary. One of the adv
 
 We have put twenty applications on the GUI so far, including Motion, Conversation, Vision, Joints, etc. In Motion, the operator can make the robot move a given distance to a given direction, or just move by a constant velocity.In Conversation, the operator can chat with Pepper using English or Chinese.In Vision, camera information is integrated. All images Pepper captured will be displayed here and the resolution is modifiable.In Joints, all joints' status are listed for developer to debug.We wish such GUI can help Pepper more powerful and useful.
 
-<table class="img-container" align="center" border="0" style="border:0;">
+<table class="img-container" align="center" style="border:0;">
     <tr>
         <th> <img src="../../../img/pepper/gui1.png" alt="GUI1"/> </th>
         <th> <img src="../../../img/pepper/gui2.png" alt="GUI2"/> </th>
@@ -129,7 +129,7 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 
 ## **Media**
 
-<table id="media-photos" class="img-container" border="0" style="border:0;" align="center">
+<table id="media-photos" class="img-container" style="border:0;" align="center">
     <tr>
         <th> <img src="../../../img/pepper/teamphoto.jpg" alt="team-photo"/> </th>
         <th> <img src="../../../img/pepper/certificate.jpg" alt="certificate"/> </th>
