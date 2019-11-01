@@ -30,7 +30,7 @@ April 2019, the first time TJArk@Home involved in China RoboCup@Home League, we 
 
 ####  Visual Simultaneous Localization and Mapping 
 
-Pepper needs a model (a map) of the environment to support other tasks, mainly auto-navigation, but a prior map is often not available in various home scenarios, so SLAM find its application. The stereo camera data is mainly used by a visual SLAM module, together with laser (very limited) and odom (has significant error) data. Our VSLAM algorithm is based on RTAB-Map \cite{closuredetection,rtabmap}, a graph-optimized based VSLAM algorithm, and have been modified for Pepper's sensors. Odom and laser scan data make the initial pose estimation, then stereo data serves for appearance-based loop closure detection to optimize local and global pose. VSLAM can get a 3D point cloud, we make a projection to get a 2D grid map for navigation. Having map and Pepper’s size parameters, we use DWA (Dynamic Window Apporach) to plan the path and fuse vision, laser and sonar data to make real-time obstacle avoidance (mainly for dynamic scene), a series of motion command will be sent to NAOqi APIs, so Pepper can navigate to its goal points itself.
+Pepper needs a model (a map) of the environment to support other tasks, mainly auto-navigation, but a prior map is often not available in various home scenarios, so SLAM find its application. The stereo camera data is mainly used by a visual SLAM module, together with laser (very limited) and odom (has significant error) data. Our VSLAM algorithm is based on RTAB-Map, a graph-optimized based VSLAM algorithm, and have been modified for Pepper's sensors. Odom and laser scan data make the initial pose estimation, then stereo data serves for appearance-based loop closure detection to optimize local and global pose. VSLAM can get a 3D point cloud, we make a projection to get a 2D grid map for navigation. Having map and Pepper’s size parameters, we use DWA (Dynamic Window Apporach) to plan the path and fuse vision, laser and sonar data to make real-time obstacle avoidance (mainly for dynamic scene), a series of motion command will be sent to NAOqi APIs, so Pepper can navigate to its goal points itself.
 
 ![slam](../../../img/pepper/vslam.png)
 
@@ -42,11 +42,7 @@ In some tasks we need a wide field of view, but the top 2D camera makes us disap
 
 ![vision1](../../../img/pepper/vision1.png)
 
-A more exciting visual module is human pose estimation. 
-
-For this feature, we use OpenPose \cite{Cao_2017_CVPR} model to get a robust and real-time performance. 
-
-With a non-parametric representation, we can detect associate body parts of multiple people in the input image stream. 
+A more exciting visual module is human pose estimation. For this feature, we use OpenPose model to get a robust and real-time performance. With a non-parametric representation, we can detect associate body parts of multiple people in the input image stream. 
 
 ![vision2](../../../img/pepper/vision2.png)
 
@@ -56,7 +52,7 @@ As a domestic service robot, smooth GUI interaction is neccesary. One of the adv
 
 We have put twenty applications on the GUI so far, including Motion, Conversation, Vision, Joints, etc. In Motion, the operator can make the robot move a given distance to a given direction, or just move by a constant velocity.In Conversation, the operator can chat with Pepper using English or Chinese.In Vision, camera information is integrated. All images Pepper captured will be displayed here and the resolution is modifiable.In Joints, all joints' status are listed for developer to debug.We wish such GUI can help Pepper more powerful and useful.
 
-<table align="center">
+<table align="center" frame=void>
     <tr>
         <th> <img src="../../../img/pepper/gui1.png" alt="GUI1"/> </th>
         <th> <img src="../../../img/pepper/gui2.png" alt="GUI2"/> </th>
@@ -76,6 +72,8 @@ We have put twenty applications on the GUI so far, including Motion, Conversatio
 We have developed a Python framework, which is a high-level package of NAOqi APIs and ROS-based components. Every team member can write his/her own lib files, such as "LibMoiton", "LibDetection", and add it to the framework easily. At the game site, Pepper can use these lib files to perform various, more complex tasks. The framework is still in developing, so we don't open its source yet.
 
 ![architecture](../../../img/pepper/architecture.png)
+
+<img align="center" src="../../../img/pepper/architecture.png" width="50%" />
 
 ## **Team members**
 
@@ -101,7 +99,7 @@ We have developed a Python framework, which is a high-level package of NAOqi API
 
 3. Peng Yun, Lei Tai, Yuan Wang, Chengju Liu, Ming Liu. Focal Loss in 3D Object Detection. IEEE ROBOTICS AND AUTOMATION LETTERS. PREPRINT VERSION. ACCEPTED JANUARY, 2019
 
-4. Zhang C., Lam H. K., Qiu J., Liu C. et al., A new design of membership-function-dependent controller for TS fuzzy systems under imperfect premise matching. *IEEE Transactions on Fuzzy System*s, 2018 (通讯作者)
+4. Zhang C., Lam H. K., Qiu J., Liu C. et al., A new design of membership-function-dependent controller for TS fuzzy systems under imperfect premise matching. *IEEE Transactions on Fuzzy System*s, 2018 
 
 5.  Liu C., Xia L., Zhang C., et al., Multi-layered CPG for adaptive walking of quadruped robots. *Journal of Bionic Engineering*, 2018, 15(2): 341-355. 
 
@@ -118,7 +116,6 @@ Tongji University
 Caoan Road 4800, Jiading, Shanghai, China 
 
 Email: 
-<a href="mailto:1930719@tongji.edu.cn" >1930719@tongji.edu.cn</a>
 
 He Zongtao <a href="mailto:1930719@tongji.edu.cn" >1930719@tongji.edu.cn
 
@@ -134,7 +131,7 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 
 ## **Media**
 
-<table id="media-photos" align="center">
+<table id="media-photos" align="center" frame=void>
     <tr>
         <th> <img src="../../../img/pepper/teamphoto.png" alt="team-photo"/> </th>
         <th> <img src="../../../img/pepper/certificate.png" alt="certificate"/> </th>
