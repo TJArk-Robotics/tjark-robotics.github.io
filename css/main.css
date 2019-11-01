@@ -89,7 +89,9 @@ img::-moz-selection {
 img {
   max-width: 100%;
 }
-
+#architecture {
+  margin: 0 auto;
+}
 .disqus-comments {
   margin-top: 30px;
 }

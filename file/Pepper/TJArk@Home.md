@@ -6,7 +6,7 @@ bigimg: ../../../img/big-imgs/hellopepper.jpg
 ---
 
 ## **Introduction**
-### The RoboCup@Home league
+### The RoboCup@Home League
 
 The [RoboCup@Home league](http://athome.robocup.org/) aims to develop service and assistive robot technology with high relevance for future personal domestic applications. It is the largest international annual competition for autonomous service robots and is part of the [RoboCup](http://www.robocup.org/) initiative. A set of benchmark tests is used to evaluate the robots' abilities and performance in a realistic non-standardized home environment setting. Focus lies on the following domains but is not limited to: Human-Robot-Interaction and Cooperation, Navigation and Mapping in dynamic environments, Computer Vision and Object Recognition under natural light conditions, Object Manipulation, Adaptive Behaviors, Behavior Integration, Ambient Intelligence, Standardization and System Integration. It is colocated with the RoboCup symposium.
 
@@ -67,13 +67,13 @@ We have put twenty applications on the GUI so far, including Motion, Conversatio
     </tr>
 </table>
 
-#### Software Framwork
+#### Software Framework
 
 We have developed a Python framework, which is a high-level package of NAOqi APIs and ROS-based components. Every team member can write his/her own lib files, such as "LibMoiton", "LibDetection", and add it to the framework easily. At the game site, Pepper can use these lib files to perform various, more complex tasks. The framework is still in developing, so we don't open its source yet.
 
-<img align="middle" src="../../../img/pepper/architecture.png" width="50%" />
+<img id="architecture" align="middle" src="../../../img/pepper/architecture.png" width="50%" />
 
-## **Team members**
+## **Team Members**
 
 | Name        | Introduction                                                            |
 | ----        | ----                                                                    |
