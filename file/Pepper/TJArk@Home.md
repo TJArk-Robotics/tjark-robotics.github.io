@@ -36,7 +36,7 @@ Pepper needs a model (a map) of the environment to support other tasks, mainly a
 
 #### Computer Vision
 
-Various vision algorithms are needed for more careful perception and analysis of Pepper’s environment on object and human level. Usually, to start a certain task, our Pepper can detect and recognize different people, remember their names and some other features, and tracking them. Then, more skills will be shown for complex goals. For object-level environment reasoning, we build an object detection and recognition framework based on YOLO \cite{Redmon2018YOLOv3AI}, which is an interesting real-time algorithm. According to the competition scenario of RoboCup@Home, our object detection system can detect 50 classes of indoor objects in real time. To train our object detection network, we make a great dataset from OpenImages. We also match adjacent input frames to increase the robust of detection.
+Various vision algorithms are needed for more careful perception and analysis of Pepper’s environment on object and human level. Usually, to start a certain task, our Pepper can detect and recognize different people, remember their names and some other features, and tracking them. Then, more skills will be shown for complex goals. For object-level environment reasoning, we build an object detection and recognition framework based on YOLO, which is an interesting real-time algorithm. According to the competition scenario of RoboCup@Home, our object detection system can detect 50 classes of indoor objects in real time. To train our object detection network, we make a great dataset from OpenImages. We also match adjacent input frames to increase the robust of detection.
 
 In some tasks we need a wide field of view, but the top 2D camera makes us disappointed. So we need to take some measures to expand Pepper’s original “eyes”. The method we choose is to stitch images from different perspectives, and a fusion algorithm follows to decrease the influence of illumination and geometric change. Now more visual candidates can be included for further processing.
 
@@ -70,8 +70,6 @@ We have put twenty applications on the GUI so far, including Motion, Conversatio
 #### Software Framwork
 
 We have developed a Python framework, which is a high-level package of NAOqi APIs and ROS-based components. Every team member can write his/her own lib files, such as "LibMoiton", "LibDetection", and add it to the framework easily. At the game site, Pepper can use these lib files to perform various, more complex tasks. The framework is still in developing, so we don't open its source yet.
-
-![architecture](../../../img/pepper/architecture.png)
 
 <img align="center" src="../../../img/pepper/architecture.png" width="50%" />
 
@@ -133,8 +131,8 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 
 <table id="media-photos" align="center" frame=void>
     <tr>
-        <th> <img src="../../../img/pepper/teamphoto.png" alt="team-photo"/> </th>
-        <th> <img src="../../../img/pepper/certificate.png" alt="certificate"/> </th>
+        <th> <img src="../../../img/pepper/teamphoto.jpg" alt="team-photo"/> </th>
+        <th> <img src="../../../img/pepper/certificate.jpg" alt="certificate"/> </th>
     </tr>
 </table>
 
