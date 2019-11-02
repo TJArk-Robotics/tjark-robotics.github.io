@@ -12,9 +12,9 @@ The [RoboCup@Home league](http://athome.robocup.org/) aims to develop service an
 
 ###  TJArk@Home
 
-The Robotics and Artificial Intelligence Lab (RAIL) of tongji university was founded in 1992, Team TJArk of RAIL was founded in 2004 and participated in RoboCup World Cup from 2006 to 2018. We have got seven winning streak in China RoboCup SPL and once won the third place in RoboCup2018 SPL.
+The Robotics and Artificial Intelligence Lab (RAIL) of Tongji University was founded in 1992, Team TJArk of RAIL was founded in 2004 and participated in RoboCup World Cup from 2006 to 2018. We have got seven winning streak in China RoboCup SPL and once won the third place in RoboCup2018 SPL.
 
-In December 2018, we founded an energetic new team to participate in RoboCup @Home League, called TJArk@Home. Main goal of TJArk@Home is to explore the limit of how well can robots serve people during common life with acceptable cost. Under the guidance of such wish, we are doing many research on the Pepper platform, such as
+In December 2018, we founded an energetic new team to participate in RoboCup @Home League, called TJArk@Home. Main goal of TJArk@Home is to explore the limit of how well can robots serve people during common life with acceptable cost. Under the guidance of such wish, we are doing many research on the [Pepper](https://www.softbank.jp/en/robot/) platform, such as
 
 - SLAM(Simultaneous Localizaiton and Mapping)
 - Auto navigation of robot
@@ -26,23 +26,23 @@ In December 2018, we founded an energetic new team to participate in RoboCup @Ho
 - Design of laptop GUI
 - ...
 
-April 2019, the first time TJArk@Home involved in China RoboCup@Home League, we got the first-place in SSPL(Social Standard Platform League). During the competion, we show a lot of abilities, including Autonomous navigation, Follow an operator to the given position, Recognize speech and response, Detect humans in vision and summarize their features.
+April 2019, the first time TJArk@Home involved in China RoboCup@Home League, we got the first-place in SSPL(Social Standard Platform League). During the competition, we show a lot of abilities, including Autonomous navigation, Follow an operator to the given position, Recognize speech and response, Detect humans in vision and summarize their features.
 
 ####  Visual Simultaneous Localization and Mapping 
 
-Pepper needs a model (a map) of the environment to support other tasks, mainly auto-navigation, but a prior map is often not available in various home scenarios, so SLAM find its application. The stereo camera data is mainly used by a visual SLAM module, together with laser (very limited) and odom (has significant error) data. Our VSLAM algorithm is based on RTAB-Map, a graph-optimized based VSLAM algorithm, and have been modified for Pepper's sensors. Odom and laser scan data make the initial pose estimation, then stereo data serves for appearance-based loop closure detection to optimize local and global pose. VSLAM can get a 3D point cloud, we make a projection to get a 2D grid map for navigation. Having map and Pepper’s size parameters, we use DWA (Dynamic Window Apporach) to plan the path and fuse vision, laser and sonar data to make real-time obstacle avoidance (mainly for dynamic scene), a series of motion command will be sent to NAOqi APIs, so Pepper can navigate to its goal points itself.
+Pepper needs a model (a map) of the environment to support other tasks, mainly auto-navigation, but a prior map is often not available in various home scenarios, so SLAM find its application. The stereo camera data is mainly used by a visual SLAM module, together with laser (very limited) and odom (has significant error) data. Our VSLAM algorithm is based on [RTAB-Map](http://introlab.github.io/rtabmap/), a graph-optimized based VSLAM algorithm, and have been modified for Pepper's sensors. Odom and laser scan data make the initial pose estimation, then stereo data serves for appearance-based loop closure detection to optimize local and global pose. VSLAM can get a 3D point cloud, we make a projection to get a 2D grid map for navigation. Having map and Pepper’s size parameters, we use DWA (Dynamic Window Apporach) to plan the path and fuse vision, laser and sonar data to make real-time obstacle avoidance (mainly for dynamic scene), a series of motion command will be sent to NAOqi APIs, so Pepper can navigate to its goal points itself.
 
 ![slam](../../../img/pepper/vslam.png)
 
 #### Computer Vision
 
-Various vision algorithms are needed for more careful perception and analysis of Pepper’s environment on object and human level. Usually, to start a certain task, our Pepper can detect and recognize different people, remember their names and some other features, and tracking them. Then, more skills will be shown for complex goals. For object-level environment reasoning, we build an object detection and recognition framework based on YOLO, which is an interesting real-time algorithm. According to the competition scenario of RoboCup@Home, our object detection system can detect 50 classes of indoor objects in real time. To train our object detection network, we make a great dataset from OpenImages. We also match adjacent input frames to increase the robust of detection.
+Various vision algorithms are needed for more careful perception and analysis of Pepper’s environment on object and human level. Usually, to start a certain task, our Pepper can detect and recognize different people, remember their names and some other features, and tracking them. Then, more skills will be shown for complex goals. For object-level environment reasoning, we build an object detection and recognition framework based on [YOLO](https://pjreddie.com/darknet/yolo/), which is an interesting real-time algorithm. According to the competition scenario of RoboCup@Home, our object detection system can detect 50 classes of indoor objects in real time. To train our object detection network, we make a great dataset from OpenImages. We also match adjacent input frames to increase the robust of detection.
 
 In some tasks we need a wide field of view, but the top 2D camera makes us disappointed. So we need to take some measures to expand Pepper’s original “eyes”. The method we choose is to stitch images from different perspectives, and a fusion algorithm follows to decrease the influence of illumination and geometric change. Now more visual candidates can be included for further processing.
 
 ![vision1](../../../img/pepper/vision1.png)
 
-A more exciting visual module is human pose estimation. For this feature, we use OpenPose model to get a robust and real-time performance. With a non-parametric representation, we can detect associate body parts of multiple people in the input image stream. 
+A more exciting visual module is human pose estimation. For this feature, we use [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) model to get a robust and real-time performance. With a non-parametric representation, we can detect associate body parts of multiple people in the input image stream. 
 
 ![vision2](../../../img/pepper/vision2.png)
 
@@ -69,7 +69,7 @@ We have put twenty applications on the GUI so far, including Motion, Conversatio
 
 #### Software Framework
 
-We have developed a Python framework, which is a high-level package of NAOqi APIs and ROS-based components. Every team member can write his/her own lib files, such as "LibMoiton", "LibDetection", and add it to the framework easily. At the game site, Pepper can use these lib files to perform various, more complex tasks. The framework is still in developing, so we don't open its source yet.
+We have developed a Python framework, which is a high-level package of [NAOqi APIs](http://doc.aldebaran.com/2-5/index.html) and [ROS](https://www.ros.org/)-based components. Every team member can write his/her own lib files, such as "LibMoiton", "LibDetection", and add it to the framework easily. At the game site, Pepper can use these lib files to perform various, more complex tasks. The framework is still in developing, so we don't open its source yet.
 
 <img id="architecture" align="middle" src="../../../img/pepper/architecture.png" width="50%" />
 
@@ -137,7 +137,6 @@ TJArk@Home video channel: [https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70l
         <th> <img src="../../../img/pepper/certificate.jpg" alt="certificate"/> </th>
     </tr>
 </table>
-
 
 <div id="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Xo4WKivYSA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
