@@ -107,7 +107,7 @@ We have developed a Python framework, which is a high-level package of [NAOqi AP
 
 Address:
 
-Robot and Artificial Intelligence Lab (RAIL) 
+Robotics and Artificial Intelligence Lab (RAIL) 
 
 Tongji University 
 
