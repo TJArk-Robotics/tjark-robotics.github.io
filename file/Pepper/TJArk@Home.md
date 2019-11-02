@@ -91,7 +91,8 @@ We have developed a Python framework, which is a high-level package of [NAOqi AP
 
 ![IROS2017](../../../img/pepper/new31.jpg)
 
-1. Chengju Liu, Tong Zhang, Changzhu Zhang, Ming Liu, Qijun Chen. Foot Placement Compensator Design for Humanoid Walking Based on Discrete Control Lyapunov Function. IEEE Transactions on Systems, Man, and Cybernetics: Systems, doi: 10.1109/TSMC.2019.2912417 (SCI)
+1. Zhang, Tong & Liu, Chengju & Chen, Qijun. (2017). Rebalance control for humanoid walking based on online foot position compensation. 4605-4610. 10.1109/IROS.2017.8206330. 
+2. Chengju Liu, Tong Zhang, Changzhu Zhang, Ming Liu, Qijun Chen. Foot Placement Compensator Design for Humanoid Walking Based on Discrete Control Lyapunov Function. IEEE Transactions on Systems, Man, and Cybernetics: Systems, doi: 10.1109/TSMC.2019.2912417 (SCI)
 
 2. Liu Chengju, Yang Jing, An Kang, Chen Qijun. Robust Control of Semi-passive Biped Dynamic Locomotion based on a Discrete Control Lyapunov Function. Robotica, 2019. (accepted) (SCI)
 
