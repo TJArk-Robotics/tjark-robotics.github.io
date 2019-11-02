@@ -123,11 +123,11 @@ Xu Weihan <a href="mailto:1552360@tongji.edu.cn" >1552360@tongji.edu.cn
 
 ## **Link**s
 
-RoboCup: http://www.robocup.org/
+RoboCup: [http://www.robocup.org/](http://www.robocup.org/)
 
 RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 
-TJArk@Home video channel: https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ
+TJArk@Home video channel: [https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ](https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ)
 
 ## **Media**
 
@@ -139,6 +139,8 @@ TJArk@Home video channel: https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lO
 </table>
 
 
+<div id="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Xo4WKivYSA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8wui0WZROrg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CNtgHpX_gMk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

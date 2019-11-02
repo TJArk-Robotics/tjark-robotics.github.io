@@ -89,6 +89,7 @@ img::-moz-selection {
 img {
   max-width: 100%;
 }
+/*--- added by hzt ---*/
 #architecture {
   margin: 0 auto;
   display:flex;
@@ -101,6 +102,13 @@ p#architecture {
 .col-lg-8 p#architecture {
   margin: 0 auto;
 }
+#video-container {
+  width: 98%;
+}
+#video-container iframe {
+  margin: 0 auto;
+}
+/*--- end added by hzt ---*/
 .disqus-comments {
   margin-top: 30px;
 }
