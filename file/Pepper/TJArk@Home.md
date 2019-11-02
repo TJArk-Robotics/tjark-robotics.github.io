@@ -129,6 +129,8 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
 
 TJArk@Home video channel: [https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ](https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ)
 
+TJArk@Home Team Description Paper: [https://github.com/tjarkpepper/TDP](https://github.com/tjarkpepper/TDP)
+
 ## **Media**
 
 <table id="media-photos" class="img-container" style="border:0;" align="center">
