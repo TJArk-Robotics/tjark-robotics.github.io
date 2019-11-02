@@ -103,10 +103,13 @@ p#architecture {
   margin: 0 auto;
 }
 #video-container {
-  width: 98%;
+  margin: auto;
 }
 #video-container iframe {
-  margin: 0 auto;
+  margin: auto;
+}
+.html5-video-container {
+  margin: auto;
 }
 /*--- end added by hzt ---*/
 .disqus-comments {
