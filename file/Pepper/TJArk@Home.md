@@ -103,7 +103,7 @@ We have developed a Python framework, which is a high-level package of NAOqi API
 
 6. Liu C., Ning J., and Chen Q., Dynamic walking control of humanoid robots combining linear inverted pendulum mode with parameter optimization. *International Journal of Advanced Robotic Systems*, 2018, 1-15.
 
-## **Contact us**
+## **Contact Information**
 
 Address:
 
@@ -121,11 +121,13 @@ Zhou Xun <a href="mailto:1930722@tongji.edu.cn" >1930722@tongji.edu.cn
 
 Xu Weihan <a href="mailto:1552360@tongji.edu.cn" >1552360@tongji.edu.cn
 
-## **Link**
+## **Link**s
 
 RoboCup: http://www.robocup.org/
 
 RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
+
+TJArk@Home video channel: https://www.youtube.com/channel/UCE5ceR_uX-Hz3IIJx70lOrQ
 
 ## **Media**
 
@@ -136,9 +138,7 @@ RoboCup@Home: [https://athome.robocup.org/](https://athome.robocup.org/)
     </tr>
 </table>
 
-<p align="center">Communication</p>
-<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126108730&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
-<p align="center">Competition Task</p>
-<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126108930&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
-<p align="center">Graphics User Interface</p>
-<iframe src="//player.bilibili.com/player.html?aid=73728080&cid=126109122&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="600"> </iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Xo4WKivYSA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8wui0WZROrg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CNtgHpX_gMk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
