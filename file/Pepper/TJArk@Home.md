@@ -12,7 +12,7 @@ The [RoboCup@Home league](http://athome.robocup.org/) aims to develop service an
 
 ###  TJArk@Home
 
-The Robotics and Artificial Intelligence Lab (RAIL) of Tongji University was founded in 1992, Team TJArk of RAIL was founded in 2004 and participated in RoboCup World Cup from 2006 to 2018. We have got seven winning streak in China RoboCup SPL and once won the third place in RoboCup2018 SPL.
+The Robotics and Artificial Intelligence Lab (RAIL) of Tongji University was founded in 1992, Team TJArk of RAIL was founded in 2004 and participated in RoboCup World Cup from 2006 to 2019. We have got seven winning streak in China RoboCup SPL and once won the third place in RoboCup2018 SPL.
 
 In December 2018, we founded an energetic new team to participate in RoboCup @Home League, called TJArk@Home. Main goal of TJArk@Home is to explore the limit of how well can robots serve people during common life with acceptable cost. Under the guidance of such wish, we are doing many research on the [Pepper](https://www.softbank.jp/en/robot/) platform, such as
 
