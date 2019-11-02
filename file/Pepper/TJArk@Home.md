@@ -2,7 +2,7 @@
 layout: page
 title: TJArk@Home
 subtitle: 
-bigimg: ../../../img/big-imgs/hellopepper.jpg
+bigimg: ../../../img/big-imgs/hellopepper2.jpg
 ---
 
 ## **Introduction**
@@ -111,7 +111,7 @@ Robot and Artificial Intelligence Lab (RAIL)
 
 Tongji University 
 
-Caoan Road 4800, Jiading, Shanghai, China 
+4800 Cao'an Road, Jiading, Shanghai, P.R. China 
 
 Email: 
 
